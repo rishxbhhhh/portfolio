@@ -1,2 +1,3 @@
 import images from './images';
-export { images };
+import { skills, experiences, abouts } from './dummy';
+export { images, skills, experiences, abouts };

@@ -1,4 +1,5 @@
 import React from 'react';
+import {AppWrap} from '../../wrapper';
 
 import './Testimonial.scss';
 
@@ -8,4 +9,4 @@ function Testimonial() {
   );
 }
 
-export default Testimonial;
+export default AppWrap(Testimonial,'testimonials');

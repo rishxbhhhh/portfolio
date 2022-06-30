@@ -1,4 +1,5 @@
 import React from 'react';
+import {AppWrap} from '../../wrapper';
 
 import './Footer.scss';
 
@@ -8,4 +9,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default AppWrap(Footer, 'contact');

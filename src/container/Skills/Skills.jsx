@@ -1,4 +1,5 @@
 import React from 'react';
+import {AppWrap} from '../../wrapper';
 
 import './Skills.scss';
 
@@ -8,4 +9,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default AppWrap(Skills,'skills');

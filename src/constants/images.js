@@ -35,7 +35,10 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-export default {
+import profile_bg from '../assets/profile_bg.png';
+import tony_bg from '../assets/tony_bg.png';
+
+const  a = {
   email,
   mobile,
   api,
@@ -69,4 +72,8 @@ export default {
   nb,
   skype,
   spotify,
+  profile_bg,
+  tony_bg
 };
+
+export default a;
