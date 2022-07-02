@@ -22,6 +22,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    
 
     margin: 1rem 0;
     padding: 1rem;
@@ -126,5 +127,52 @@
   @media screen and (max-width: 768px) {
     width: 100%;
     margin: 1rem 0;
+  }
+}
+
+#app__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  padding: 1rem;
+
+  a{
+    margin: 1rem;
+  }
+
+  div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    margin: 0.25rem 0;
+    border: 1px solid var(--lightGray-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s ease-in-out;
+
+    
+
+    svg {
+      width: 25px;
+      height: 25px;
+      color: var(--gray-color);
+    }
+
+    @media screen and (min-width: 500px) {
+      a,svg{
+        display: none;
+      }
+    }
+  }
+  @media screen and (min-width: 500px) {
+    div{
+      display: none;
+    }
   }
 }
