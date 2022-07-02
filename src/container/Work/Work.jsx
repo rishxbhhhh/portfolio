@@ -74,7 +74,7 @@ function Work() {
                 }}
                 className="app__work-hover app__flex"
               >
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                <a href={work.projectLink} className="icons__pc" target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -84,7 +84,7 @@ function Work() {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                <a href={work.codeLink} className="icons__pc" target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -101,6 +101,17 @@ function Work() {
               <p className="p-text" style={{ marginTop: 10 }}>
                 {work.description}
               </p>
+                                                                                    {/* icons mobile wrapper */}
+              <div className="icons__mobile-wrapper app__flex">
+              
+                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                  <AiFillEye className="icons__mobile"/>
+                </a>
+                <a href={work.codeLink} target="_blank" rel="noreferrer">
+                  <AiFillGithub className="icons__mobile"/>
+                  
+                </a>
+              </div>
 
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>

@@ -154,3 +154,26 @@
       top: -25px;
     }
   }
+
+  @media screen and (min-width:600px) {
+    .icons__mobile-wrapper,.icons__mobile{
+      display: none;
+    }    
+  }
+
+  .icons__mobile{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 1rem;
+    color: var(--gray-color);
+    border-radius: 50%;
+    background-color: var(--primary-color);
+  }
+
+  @media screen and (max-width: 600px) {
+    .icons__pc{
+      display: none;
+    }
+    
+  }
