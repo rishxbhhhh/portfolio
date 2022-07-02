@@ -18,7 +18,7 @@ const scaleVariants = {
 
 function Header() {
   return (
-    <div id="home" className="app__header app__flex">
+    <div className="app__header app__flex">
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
         transition={{ duration: 0.65 }}
@@ -45,7 +45,7 @@ function Header() {
         transition={{ duration: 0.65}}
         className="app__header-img"
       >
-        <img src={images.tony_bg} alt="profile_bg" />
+        <img src={images.profile_bg} alt="profile_bg" />
         <motion.img
           whileInView={{ scale: [0, 1] }}
           transition={{ duration: 0.65, ease: "easeInOut" }}
@@ -60,7 +60,7 @@ function Header() {
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.flutter, images.redux, images.sass].map((circle, index) => (
+        {[images.react, images.node, images.sass].map((circle, index) => (
           <div className="circle-cmp app__flex" key={`circle-${index}`}>
             <img src={circle} alt="circle" />
           </div>
