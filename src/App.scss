@@ -4,7 +4,7 @@
 }
 
 .app__whitebg {
-  background-color: var(--white-color);
+  background-color: var(--background-color);
 }
 
 .app__primarybg {
@@ -49,7 +49,7 @@
 
   p {
     text-transform: uppercase;
-    color: var(--black-color);
+    color: var(--foreground-color);
   }
 }
 
@@ -57,7 +57,7 @@
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
-  color: var(--black-color);
+  color: var(--foreground-color);
   text-transform: capitalize;
 
   span {
@@ -76,7 +76,7 @@
 .p-text {
   font-size: 0.8rem;
   text-align: left;
-  color: var(--gray-color);
+  color: var(--accent1-color);
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -87,7 +87,7 @@
 .bold-text {
   font-size: 1rem;
   font-weight: 800;
-  color: var(--black-color);
+  color: var(--foreground-color);
   text-align: left;
 
   @media screen and (min-width: 2000px) {
@@ -111,9 +111,9 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--white-color);
+    background-color: var(--background-color);
     margin: 0.25rem 0;
-    border: 1px solid var(--lightGray-color);
+    border: 1px solid var(--accent1light-color);
 
     display: flex;
     justify-content: center;
@@ -124,7 +124,7 @@
     svg {
       width: 15px;
       height: 15px;
-      color: var(--gray-color);
+      color: var(--accent1-color);
     }
 
     &:hover {
@@ -132,7 +132,7 @@
       border-color: var(--secondary-color);
 
       svg {
-        color: var(--white-color);
+        color: var(--background-color);
       }
     }
 
@@ -162,7 +162,7 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #cbcbcb;
+    background-color: var(--accent1light-color);
     margin: 0.5rem;
 
     transition: background-color 0.2s ease-in-out;

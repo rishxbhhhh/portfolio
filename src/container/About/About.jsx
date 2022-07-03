@@ -19,11 +19,8 @@ function About() {
     <>
       <div className="app__head-text">
         <h2>
-          I know that
-          <br />
-          <span>&nbsp;&nbsp;Good Design</span> <br /> means
-          <br />
-          <span>&nbsp;&nbsp;Good Business</span>
+          <span>People Ignore Designs that Ignore people.</span>
+          <br />~ Frank Chimero, Designer
         </h2>
       </div>
       <div className="app__profiles">

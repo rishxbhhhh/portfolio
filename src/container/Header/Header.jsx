@@ -43,6 +43,7 @@ function Header() {
       <motion.div
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.65}}
+        whileHover={{scale: 0.95}}
         className="app__header-img"
       >
         <img src={images.profile_bg} alt="profile_bg" />

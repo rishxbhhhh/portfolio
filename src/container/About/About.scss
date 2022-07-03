@@ -28,8 +28,16 @@
     margin-bottom: 0.5rem;
   }
 
+  h2{
+    width: 100%;
+    text-align: center;
+    color: var(--foreground-color);
+  }
+
   p{
-    text-align: left;
+    width: 100%;
+    text-align: center;
+    color: var(--accent1-color);
   }
 
   @media screen and (min-width: 2000px) {
@@ -59,12 +67,13 @@
   h2 {
     margin: 2rem;
     // border: 2px solid red;
-    font-size: 2rem;
-    color: black;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--foreground-color);
   }
   span {
-    font-size: 3rem;
-    color: navy;
+    font-size: 2rem;
+    color: var(--secondary-color);
     text-transform: uppercase;
   }
   @media screen and (max-width: 700px) {
