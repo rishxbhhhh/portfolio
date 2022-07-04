@@ -1,3 +1,43 @@
+:root {
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
+  --foreground-color: #030303;
+  --background-color: #ffffff;
+  --accent1light-color: #e4e4e4;
+  --accent1-color: #7b113a;
+  --accent2-color: #46364a;
+  --bg-main: url("assets/bgIMG.png");
+  --bg-nav: url("assets/bgWhite.png");
+}
+
+
+[color-scheme="light"] {
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
+  --foreground-color: #030303;
+  --background-color: #ffffff;
+  --accent1light-color: #e4e4e4;
+  --accent1-color: #7b113a;
+  --accent2-color: #46364a;
+  --bg-main: url("assets/bgIMG.png");
+  --bg-nav: url("assets/bgWhite.png");
+}
+
+[color-scheme="dark"] {
+  --primary-color: #1b2430;
+  --secondary-color: #ca3e47;
+  --foreground-color: #ffffff;
+  --background-color: #0f0e0e;
+  --accent1light-color: #525252;
+  --accent1-color: #ecdbba;
+  --accent2-color: #f2f4f8;
+  --bg-main: url("assets/bgIMGdark.png");
+  --bg-nav: url("assets/bgBlack.png");
+}
+
+
+
+
 .app {
   background-color: var(--primary-color);
   font-family: var(--font-base);
@@ -168,7 +208,7 @@
     transition: background-color 0.2s ease-in-out;
 
     &:hover {
-      background-color: var(--secondary-color);
+      background-color: var(--accent1-color);
     }
 
     @media screen and (min-width: 2000px) {

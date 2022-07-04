@@ -4,83 +4,11 @@
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  /* light theme */
-  /* --primary-color-light: #edf2f8;
-  --secondary-color-light: #313bac;
-  --foreground-color-light: #030303;
-  --background-color-light: #ffffff;
-  --accent1light-color-light: #e4e4e4;
-  --accent1-color-light: #7b113a;
-  --accent2-color-light: #46364a;
-  --bg-main-light: url("assets/bgIMG.png");
-  --bg-nav-light: url("assets/bgWhite.png"); */
-
-
-
-  /* dark theme */
-  /* --primary-color-dark: #1B2430;
-  --secondary-color-dark: #CA3E47;
-  --foreground-color-dark: #ffffff;
-  --background-color-dark: #0F0E0E;
-  --accent1light-color-dark: #525252;
-  --accent1-color-dark: #ECDBBA;
-  --accent2-color-dark: #f2f4f8;
-  --bg-main-dark: url("assets/bgIMGdark.png");
-  --bg-nav-dark: url("assets/bgBlack.png"); */
 }
 
-/* @media(prefers-color-scheme: light) {
+ /* @media(prefers-color-scheme: light) {
   :root {
-    --primary-color: var(--primary-color-light);
-    --secondary-color: var(--secondary-color-light);
-    --foreground-color: var(--foreground-color-light);
-    --accent1light-color: var(--accent1light-color-light);
-    --accent1-color: var(--accent1-color-light);
-    --accent2-color: var(--accent2-color-light);
-    --background-color: var(--background-color-dark);
-    --bg-main: var(--bg-main-light);
-    --bg-nav: var(--bg-nav-light);
-  }
-}
-
-@media(prefers-color-scheme: dark) {
-  :root {
-    --primary-color: var(--primary-color-dark);
-    --secondary-color: var(--secondary-color-dark);
-    --foreground-color: var(--foreground-color-dark);
-    --accent1light-color: var(--accent1light-color-dark);
-    --accent1-color: var(--accent1-color-dark);
-    --accent2-color: var(--accent2-color-dark);
-    --background-color: var(--background-color-dark);
-    --bg-main: var(--bg-main-dark);
-    --bg-nav: var(--bg-nav-dark);
-  }
-} */
-
-
-/* [color-scheme="dark"] {
-  --primary-color: var(--primary-color-dark);
-  --secondary-color: var(--secondary-color-dark);
-  --foreground-color: var(--foreground-color-dark);
-  --accent1light-color: var(--accent1light-color-dark);
-  --accent1-color: var(--accent1-color-dark);
-  --accent2-color: var(--accent2-color-dark);
-  --background-color: var(--background-color-dark);
-}
-
-[color-scheme="light"] {
-  --primary-color: var(--primary-color-light);
-  --secondary-color: var(--secondary-color-light);
-  --foreground-color: var(--foreground-color-light);
-  --accent1light-color: var(--accent1light-color-light);
-  --accent1-color: var(--accent1-color-light);
-  --accent2-color: var(--accent2-color-light);
-  --background-color: var(--background-color-dark);
-} */
-
-@media(prefers-color-scheme: light) {
-  :root {
-    /* light theme */
+    
     --primary-color: #edf2f8;
     --secondary-color: #313bac;
     --foreground-color: #030303;
@@ -95,7 +23,7 @@
 
 @media(prefers-color-scheme: dark) {
   :root {
-    /* dark theme */
+    
     --primary-color: #1B2430;
     --secondary-color: #CA3E47;
     --foreground-color: #ffffff;
@@ -106,7 +34,9 @@
     --bg-main: url("assets/bgIMGdark.png");
     --bg-nav: url("assets/bgBlack.png");
   }
-}
+} */
+
+
 
 * {
   box-sizing: border-box;
