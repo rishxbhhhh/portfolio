@@ -16,7 +16,7 @@
     .app__work-filter-item {
       padding: 0.5rem 1rem;
       border-radius: 0.5rem;
-      background-color: var(--background-color);
+      background-color: var(--primary-color);
       color: var(--foreground-color);
       font-weight: 800;
   
@@ -54,7 +54,7 @@
       margin: 2rem;
       padding: 1rem;
       border-radius: 0.5rem;
-      background-color: var(--background-color);
+      background-color: var(--primary-color);
       color: var(--background-color);
   
       cursor: pointer;
@@ -168,7 +168,7 @@
     margin: 1rem;
     color: var(--accent2-color);
     border-radius: 50%;
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
   }
 
   @media screen and (max-width: 600px) {

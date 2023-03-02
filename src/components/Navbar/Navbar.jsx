@@ -20,7 +20,7 @@ function Navbar(props) {
       </div>
       <ThemeIcon />
       <ul className="app__navbar-links">
-        {["home", "about", "work", "skills", "testimonials", "contact"].map(
+        {["home", "work", "skills", "contact"].map(
           (item) => (
             <li className="app__flex p-text" key={`link-${item}`}>
               <div />
@@ -42,10 +42,8 @@ function Navbar(props) {
             <ul>
               {[
                 "home",
-                "about",
                 "work",
                 "skills",
-                "testimonials",
                 "contact",
               ].map((item) => (
                 <li key={item}>

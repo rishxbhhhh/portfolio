@@ -36,6 +36,7 @@ import spotify from '../assets/spotify.png';
 
 import profile_bg from '../assets/profile_bg.png';
 import tony_bg from '../assets/tony_bg.png';
+import cv from '../assets/cv.gif'
 
 const  a = {
   email,
@@ -71,7 +72,8 @@ const  a = {
   skype,
   spotify,
   profile_bg,
-  tony_bg
+  tony_bg,
+  cv
 };
 
 export default a;

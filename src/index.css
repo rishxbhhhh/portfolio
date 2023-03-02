@@ -6,38 +6,6 @@
 
 }
 
- /* @media(prefers-color-scheme: light) {
-  :root {
-    
-    --primary-color: #edf2f8;
-    --secondary-color: #313bac;
-    --foreground-color: #030303;
-    --background-color: #ffffff;
-    --accent1light-color: #e4e4e4;
-    --accent1-color: #7b113a;
-    --accent2-color: #46364a;
-    --bg-main: url("assets/bgIMG.png");
-    --bg-nav: url("assets/bgWhite.png");
-  }
-}
-
-@media(prefers-color-scheme: dark) {
-  :root {
-    
-    --primary-color: #1B2430;
-    --secondary-color: #CA3E47;
-    --foreground-color: #ffffff;
-    --background-color: #0F0E0E;
-    --accent1light-color: #525252;
-    --accent1-color: #ECDBBA;
-    --accent2-color: #f2f4f8;
-    --bg-main: url("assets/bgIMGdark.png");
-    --bg-nav: url("assets/bgBlack.png");
-  }
-} */
-
-
-
 * {
   box-sizing: border-box;
   padding: 0;

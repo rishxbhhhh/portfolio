@@ -14,8 +14,7 @@ function About() {
       setAbouts(data);
     });
   }, []);
-
-  return (
+ return (
     <>
       <div className="app__head-text">
         <h2>
@@ -41,7 +40,6 @@ function About() {
     </>
   );
 }
-
 export default AppWrap(
   MotionWrap(About, "app__about"),
   "about",

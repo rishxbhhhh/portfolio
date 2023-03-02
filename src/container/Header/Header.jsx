@@ -5,17 +5,6 @@ import { AppWrap } from '../../wrapper';
 
 import "./Header.scss";
 
-const scaleVariants = {
-  whileInView: {
-    scale: [0, 1],
-    opacity: [0, 1],
-    transition: {
-      duration: 0.5,
-      ease: "easeInOut",
-    },
-  },
-};
-
 function Header() {
   return (
     <div className="app__header app__flex">
@@ -28,45 +17,37 @@ function Header() {
           <div className="badge-cmp app__flex">
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
-              <p className="p-text">Hello, I am</p>
-              <h1 className="head-text">Rishabh</h1>
+              <h1 className="head-text">I'm Rishabh Rajpurohit</h1>
             </div>
           </div>
-
           <div className="tag-cmp app__flex">
-            <p className="p-text">Web Developer</p>
-            <p className="p-text">Freelancer</p>
+            <p className="p-text">Developer / Software Engineer</p>
+            <p className="p-text">B.Tech - Computer Science and Engineering</p>
           </div>
-        </div>
-      </motion.div>
-
-      <motion.div
-        whileInView={{ opacity: [0, 1] }}
-        transition={{ duration: 0.65}}
-        whileHover={{scale: 0.95}}
-        className="app__header-img"
-      >
-        <img src={images.profile_bg} alt="profile_bg" />
-        <motion.img
-          whileInView={{ scale: [0, 1] }}
-          transition={{ duration: 0.65, ease: "easeInOut" }}
-          src={images.circle}
-          alt="profile_circle"
-          className="overlay_circle"
-        />
-      </motion.div>
-
-      <motion.div
-        variant={scaleVariants}
-        whileInView={scaleVariants.whileInView}
-        className="app__header-circles"
-      >
-        {[images.react, images.node, images.sass].map((circle, index) => (
-          <div className="circle-cmp app__flex" key={`circle-${index}`}>
-            <img src={circle} alt="circle" />
+          <div className="tag-cmp app__flex">
+            <p className="p-text">This is Tom, Click on Him</p>
+            <p className="p-text">He will take you to my Resume.</p>
           </div>
-        ))}
-      </motion.div>
+          
+      </div>
+      
+    </motion.div>
+    <motion.div
+        whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+        transition={{ duration: 0.65 }}
+        className="app__header-info"
+        id="app__header-cv"
+      >
+        <div className="app__header-badge">
+        <a href="https://drive.google.com/file/d/10ORcSyt5JVq3lorfN-HeHmQ3q5I9Ybiz/view?usp=share_link" target="_blank" rel="noreferrer">
+          <div className="badge-cmp app__flex">
+            <img src={images.cv} width="100%" alt="a dog wearing glasses"/>
+          </div>
+        </a>
+        </div>    
+        
+      
+    </motion.div>
     </div>
   );
 }

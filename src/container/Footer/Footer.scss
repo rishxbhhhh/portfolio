@@ -155,13 +155,13 @@
       color: var(--accent1-color);
     }
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 630px) {
       a,svg{
         display: none;
       }
     }
   }
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 630px) {
     div{
       display: none;
     }
